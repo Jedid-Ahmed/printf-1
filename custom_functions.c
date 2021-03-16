@@ -10,19 +10,7 @@
  */
 int _putchar(char c)
 {
-	static char buf[KILOBYTE];
-	static int i;
-
-	if (c == FLUSH || i >= KILOBYTE)
-	{
-		write(1, &buf, i);
-		i = 0;
-	} else
-	{
-		buf[i] = c;
-		i++;
-	}
-	return (1);
+	return (write(1, &c, 1));
 }
 /**
  *_strlen - reset number
