@@ -8,16 +8,10 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-/**
- * _putchar - print char with stdout
- * @ch: char to print
- * Return: Output.
- */
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
-
 /**
  *_strlen - reset number
  *Description: This function return a length for some string
@@ -34,7 +28,6 @@ int _strlen(char *s)
 	}
 	return (len);
 }
-
 /**
  *_puts - print string
  *Description: print some string
@@ -75,5 +68,3 @@ char *convert_to(char representation[], unsigned int num, int base)
 	} while (num != 0);
 	return (ptr);
 }
-
-
