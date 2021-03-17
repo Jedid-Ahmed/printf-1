@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdarg.h>
 
-/**
+/*
  * print_ptr - print_base16_upper_lower
  * @arg: va_list parameter
  * Description: This function print address pointer
@@ -52,7 +52,7 @@ int print_ptr(va_list arg)
 	return (i);
 }
 
-/**
+/*
  * print_rot13 - prints a string using rot13
  * @arg: list of arguments from _printf
  * Return: length of the printed string
@@ -83,7 +83,7 @@ int print_rot13(va_list arg)
 	return (j);
 }
 
-/**
+/*
  * print_rev - prints a string in reverse
  * @arg: argument from _printf
  * if a flag is passed to _printf
