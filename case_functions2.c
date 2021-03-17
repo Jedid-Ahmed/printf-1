@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdarg.h>
 
-/*
+/**
  * print_ptr - print_base16_upper_lower
  * @arg: va_list parameter
  * Description: This function print address pointer
