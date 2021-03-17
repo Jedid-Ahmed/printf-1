@@ -82,7 +82,7 @@ int print_string(va_list arg)
 	cont = _strlen(s);
 	return (cont);
 }
-/*
+/**
  * print_base16_upper_lower - print_base16_upper_lower
  * @arg: va_list parameter
  *@representation: pointer parameter
