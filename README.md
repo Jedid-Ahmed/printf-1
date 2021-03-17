@@ -1,2 +1,2 @@
 # Printf Team Project
-Tinsaye simeneh, david musau
+david musau (https://github.com/davidmusau), Tinsaye simeneh (https://github.com/tinsaye1945)
