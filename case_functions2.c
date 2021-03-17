@@ -52,7 +52,7 @@ int print_ptr(va_list arg)
 	return (i);
 }
 
-/*
+/**
  * print_rot13 - prints a string using rot13
  * @arg: list of arguments from _printf
  * Return: length of the printed string
