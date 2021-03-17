@@ -83,7 +83,7 @@ int print_rot13(va_list arg)
 	return (j);
 }
 
-/*
+/**
  * print_rev - prints a string in reverse
  * @arg: argument from _printf
  * if a flag is passed to _printf
