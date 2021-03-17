@@ -50,7 +50,7 @@ void _puts(char *str)
  *@representation: char representation[] = "0123456789ABCDEF";
  *@num: num to tranasform
  *@base: base to transform num
- *Return: numbert into char pointer
+ *Return: number into char pointer
  */
 char *convert_to(char representation[], unsigned int num, int base)
 {
